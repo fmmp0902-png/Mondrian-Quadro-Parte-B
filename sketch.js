@@ -4,7 +4,7 @@ function setup() {
 
 function draw() {
   //Fundo
-  background(255, 229, 223);
+  background(225, 229, 223);
 
   stroke(20);
   strokeWeight(10);
