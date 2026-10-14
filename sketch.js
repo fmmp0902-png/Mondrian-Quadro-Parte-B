@@ -1,5 +1,8 @@
 function setup() {
   createCanvas(917,899);
+
+  //Velocidade
+  frameRate(5);
 }
 
 function draw() {
@@ -20,15 +23,15 @@ function draw() {
 
   //Vermelho
   fill(231, 6, 4);
-  rect(0, 0, 422, 368);
+  rect(0 + random(-5, 5), 0 + random(-5, 5), 422, 368);
 
   //Amarelo
   fill(250, 209, 3);
-  rect(0, 586, 93, 313);
+  rect(0 + random(-5, 5), 586 + random(-5, 5), 93, 313);
 
   //Azul
   fill(23, 23, 101);
-  rect(422, 586, 284, 250);
+  rect(422 + random(-5, 5), 586 + random(-5, 5), 284, 250);
 
 }
 
